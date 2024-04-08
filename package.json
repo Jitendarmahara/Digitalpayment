@@ -10,6 +10,8 @@
   "devDependencies": {
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
+    "@types/bcrypt": "^5.0.2",
+    "@types/node": "^20.11.30",
     "prettier": "^3.2.5",
     "turbo": "latest"
   },
@@ -20,5 +22,9 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "next-auth": "^4.24.7"
+  }
 }
